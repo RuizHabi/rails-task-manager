@@ -4,11 +4,11 @@
       <h1><%= @task.title %></h1>
 
 
-      <p>
-      <%= @task.details %>
+
+      <p><strong>Details: </strong> <%= @task.details %></p>
       <br>
-      <%= @task.completed %>
-      </p>
+      <p>Is this completed? <%= @task.completed %></p>
+
 
       <br>
       <%= link_to 'Delete',
